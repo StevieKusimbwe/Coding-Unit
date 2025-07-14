@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #f1f1f1;
+}
+header {
+  background: #121212;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #00ffcc;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+}
+section {
+  padding: 2rem;
+  text-align: center;
+}
+h1, h2 {
+  color: #00ffd1;
+  font-size: 25px;
+}
+
+.contact-section {
+  padding: 2rem;
+  background-color: #111;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 25px;
+  color: #00ffd1;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00ff99;
+  transform: scale(1.05);
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  font-size: 0.9rem;
+}
